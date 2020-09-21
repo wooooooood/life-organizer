@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>예적금 이자계산기</title>
+</head>
+<body>
+    <h1>💰예적금 이자계산기 with VanillaJS🍌</h1>
+    <h2>예금</h2>
+    <div id="deposit-input-container">
+        <ul>
+            <li><label>원금: </label><input id="deposit"></li>
+            <li><label>이율%: </label><input id="deposit-rate"></li>
+            <li><label>기간(개월): </label><input id="deposit-month"></li>
+        </ul>
+    </div>
+    <h2>적금</h2>
+    <div id="savings-input-container">
+        <ul>
+            <li><label>월 납입금액: </label><input id="savings"></li>
+            <li><label>이율%: </label><input id="savings-rate"></li>
+            <li><label>기간(개월): </label><input id="savings-month"></li>
+        </ul>
+    </div>
+    <div>
+        <button id="submit">계산하기</button>
+    </div>
+    <div id="result">
+    </div>
+    <script type="module" src="./src/app.js"></script>
+</body>
+</html>
