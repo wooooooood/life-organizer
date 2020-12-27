@@ -1,4 +1,4 @@
-export default function App(){
+export default function DepositCalculator(){
     const $result = document.querySelector('#result');
     const $deposit = document.querySelector('#deposit');
     const $depositRate = document.querySelector('#deposit-rate');
@@ -17,4 +17,4 @@ export default function App(){
     });
 }
 
-new App();
+new DepositCalculator();
